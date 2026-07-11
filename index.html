@@ -115,6 +115,9 @@ body { font-family: var(--f-b); color: var(--ink); background: var(--bg); line-h
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .timeline { padding-right: 20px; border-right-width: 2px; }
+  .tl-item::before { right: -27px; width: 12px; height: 12px; border-width: 3px; }
+  .fgrid2 { grid-template-columns: 1fr !important; }
   .nav-links { display: none; /* Can add hamburger menu later */ }
   .cover-title { font-size: 45px; }
   .chapter-number { font-size: 100px; }
@@ -310,6 +313,9 @@ h1,h2,h3,.dfont{font-family:var(--f-d);font-weight:700;line-height:1.35}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .timeline { padding-right: 20px; border-right-width: 2px; }
+  .tl-item::before { right: -27px; width: 12px; height: 12px; border-width: 3px; }
+  .fgrid2 { grid-template-columns: 1fr !important; }
   .nav-links { display: none; /* Can add hamburger menu later */ }
   .cover-title { font-size: 45px; }
   .chapter-number { font-size: 100px; }
@@ -451,6 +457,9 @@ h1,h2,h3,.dfont{font-family:var(--f-d);font-weight:700;line-height:1.35}
 .mt span{font-size:13px;color:rgba(255,255,255,.7)}
 
 @media (max-width:760px){
+  .metrics .wrap { grid-template-columns: 1fr 1fr !important; padding: 20px 0; }
+  .mt { border-inline-start: none !important; padding: 15px 10px !important; }
+
   .nav,.hdr .btn-w{display:none}
   .burger{display:block;margin-inline-start:auto}
   .hdr .btn-g{display:none}
@@ -545,6 +554,7 @@ h1,h2,h3,.dfont{font-family:var(--f-d);font-weight:700;line-height:1.35}
 <a href="#services">مجالات التخصص</a>
 <a href="#gallery">دليل النماذج</a>
 <a href="#contact">تواصل معي</a>
+<a href="Legal_Portfolio_Shahad.pdf" target="_blank" style="color:var(--gold);">تحميل PDF</a>
 </div>
 <section class="hero" id="top">
 <div class="wrap hero-grid">
@@ -971,7 +981,7 @@ h1,h2,h3,.dfont{font-family:var(--f-d);font-weight:700;line-height:1.35}
 <div class="sadu-top"></div>
 <!-- Top Panel: Typography -->
 <div style="z-index: 2; margin-bottom: 50px; max-width: 700px;">
-<h2 style="font-family: var(--f-d); font-size: 70px; color: white; line-height: 1.2; margin-bottom: 20px;">دعنا نعمل <span style="color: var(--gold);">معاً.</span></h2>
+<h2 style="font-family: var(--f-d); font-size: clamp(35px, 8vw, 70px); color: white; line-height: 1.2; margin-bottom: 20px;">دعنا نعمل <span style="color: var(--gold);">معاً.</span></h2>
 <p style="font-size: 22px; color: rgba(255,255,255,0.7); line-height: 1.8;">
         نقدم لك خدمات قانونية مبنية على الشفافية والالتزام، لدعم كيانك في رحلته نحو التوسع والنجاح بثقة نظامية تامة.
       </p>
@@ -1003,7 +1013,7 @@ h1,h2,h3,.dfont{font-family:var(--f-d);font-weight:700;line-height:1.35}
 </div>
 </div>
 <!-- QR Codes Section -->
-<div style="display: flex; justify-content: center; gap: 50px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px; width: 100%;">
+<div style="display: flex; justify-content: center; gap: 50px; flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 40px; width: 100%;">
 <!-- LinkedIn QR -->
 <a href="https://www.linkedin.com/in/المحامية-شهد-السبيعي-542392237" onmouseout="this.style.transform='scale(1)'" onmouseover="this.style.transform='scale(1.05)'" style="text-decoration: none; text-align: center; color: inherit; transition: transform 0.2s;" target="_blank">
 <div style="background: white; padding: 12px; border-radius: 12px; display: inline-block;">
